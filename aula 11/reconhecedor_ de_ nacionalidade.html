@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reconhecedor de nacionalidade</title>
+    <style>
+        body {
+            font: normal 14pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de Nacionalidade</h1>
+    Digite seu País <input type="texto" name="país" id="país">
+    <input type="button" value="verificar" onclick="verificar()">
+    <div id="resposta">
+        
+    </div>
+    <script>
+        function verificar() {
+            var meu_país = window.document.querySelector('input#país')
+            var resposta = window.document.querySelector('div#resposta')
+            
+            resposta.innerHTML = `<p>Seu país é ${meu_país.value}</p>`
+            if (meu_país.value == 'Brasil') {
+                resposta.innerHTML += 'Você é brasileiro'
+            } 
+            else {
+                resposta.innerHTML += 'Você é estrangeiro'
+            }
+        } 
+    </script>
+</body>
+</html>
