@@ -3,7 +3,7 @@ body {
     font: normal 15pt Arial;
 }
 header {
-    color: rgb(0, 0, 0);
+    color: rgb(141, 141, 141);
     text-align: center;
 
 
@@ -12,6 +12,7 @@ header {
 div {
     text-align: center;
     padding: 8px;
+    color: rgb(141, 141, 141);
 }
 section {
     background: white;
@@ -22,7 +23,7 @@ section {
     box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.13);
 }
 footer {
-    color: rgb(0, 0, 0);
+    color: rgb(141, 141, 141);
     text-align: center;
     font-style: italic;
 }
