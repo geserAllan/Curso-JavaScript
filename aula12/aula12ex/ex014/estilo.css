@@ -3,7 +3,7 @@ body {
     font: normal 15pt Arial;
 }
 header {
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
 
 
@@ -22,7 +22,7 @@ section {
     box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.13);
 }
 footer {
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     font-style: italic;
 }
