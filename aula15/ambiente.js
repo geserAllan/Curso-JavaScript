@@ -7,4 +7,10 @@ num.push(3)
 num.sort()
 console.log(num)
 console.log(`O vetor tem ${num.length} posições`)
-console.log(`O primeiro valor é ${num[2]}`)
+let pos = num.indexOf(1)
+
+if (pos == -1) {
+    console.log ('Valor não encontrado')
+}else {
+    console.log (`O valor está na posição ${pos}`)
+}
